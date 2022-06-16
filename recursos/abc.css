@@ -1,0 +1,155 @@
+
+h1{
+  font-size: 27px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  font-style: oblique;
+  text-shadow: 7px 4px 5px rgb(185, 180, 180);;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  margin-top: 2.4rem;
+  box-shadow: rgba(0, 0, 0, 0.35)  0px 2.8px 7px 3px;
+
+  border: 2px solid #c2bdbf;
+ }
+
+ .tbl-content{
+  height: 292px;
+  overflow-x:auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35)  0px 2.8px 7px 3px;
+}
+
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  text-transform: uppercase;
+  background: #c2bdbf;
+}
+td{
+  padding: 11px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.171);
+  background: #dcd7da;
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+.button-container-1 {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: 3.8rem;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-weight: 250;
+  font-size: 15px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 7px;
+}
+.button-container-1 button {
+  width: 90%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 7px;
+  -webkit-animation: ani2 0.7s steps(22) forwards;
+  animation: ani2 0.7s steps(22) forwards;
+}
+.button-container-1 button:hover {
+  -webkit-animation: ani 0.7s steps(22) forwards;
+  animation: ani 0.7s steps(22) forwards;
+}
+
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+
+
+
